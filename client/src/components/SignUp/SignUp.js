@@ -107,7 +107,7 @@ class SignUp extends Component {
                 value={this.state.img}
                 onChange={this.handleInputChange}
                 name="img"
-                placeholder="Image(URL)"
+                placeholder="Paste image(URL) here or upload below (optional)"
               />
               <input className="fileInput form-control-file"
                  type="file"
