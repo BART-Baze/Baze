@@ -144,7 +144,7 @@ class Post extends Component {
                 </label>
                 <br />
                 <label>
-                  Add Image URL or Upload Photo:
+                  Add Image URL or Upload Photo (Optional):
                   <div className="form-group">
                     <Input
                       value={this.state.url}
