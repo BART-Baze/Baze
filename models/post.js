@@ -2,11 +2,18 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const postSchema = new Schema({
-  userId: { type: String, required: true },
-  comment: { type: String, required: true },
+  userId: { type: Schema.Types.ObjectId, ref: "User"},
+  comment: { type: String },
+  url: { type: String },
+  photo: { type: String, data: Buffer },
   postType: { type: String, required: true },
-  station: { type: String},
-  trainId: { type: String},
+  isAlert: { type: Boolean, default: false },
+  station: { type: String },
+  trainLine: { type: String },
+  likes: [{
+    type: Schema.Types.ObjectId,
+    ref: "User"
+  }],
   synopsis: String,
   date: { type: Date, default: Date.now }
 });

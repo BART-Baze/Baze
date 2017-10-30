@@ -1,0 +1,98 @@
+
+.list-group-item {
+}
+
+.backgroundUserImg {
+  height: 100px;
+}
+
+/*user images in the feed*/
+.feed-img {
+  object-fit: cover;
+  border-radius:50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(221, 221, 221, 0.25);
+}
+
+/*posted image content*/
+.post-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+}
+
+.img-container {
+  float: left;
+  margin-right: 10px;
+}
+
+.username {
+  font-family: "News Cycle","Arial Narrow Bold",sans-serif;  font-size: 20px;
+  font-weight: bold;
+}
+
+.station, .train, .station, .postType, .date {
+  font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+.comment {
+	font-family: 'Marvel', sans-serif;
+	font-size: 22px;
+  color: black;
+  overflow-wrap: break-word;
+}
+
+.loader {
+  margin-top: 20px;
+  text-align: center;
+  color: #65bdb4;
+}
+
+@media only screen and (max-width: 500px) {
+    .comment, .post-img {
+      margin-top: 20px;
+    }
+
+    .post-img {
+      margin-top: 30px;
+
+    }
+
+    .feed-img {
+      margin-top: 5px;
+
+    }
+
+    .username {
+      margin-top: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 360px) {
+  .station, .train, .station, .postType, .date {
+    font-size: 11px;
+  }
+
+  .username {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .station, .train, .station, .postType, .date {
+    font-size: 10px;
+  }
+
+  .username {
+    font-size: 18px;
+  }
+
+}

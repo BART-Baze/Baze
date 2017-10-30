@@ -1,16 +1,28 @@
 const router = require("express").Router();
 const postController = require("../../controllers/postController");
 
-// Matches with "/api/post"
+// Matches with "/api/posts"
 router.route("/")
   .get(postController.findAll)
   .post(postController.create);
 
-// Matches with "/api/post/:id"
-router
-  .route("/:id")
+router.route("/delay")
+  .get(postController.findDelayPosts);
+
+router.route("/station")
+  .get(postController.findStationPosts);
+
+router.route("/train")
+  .get(postController.findTrainPosts);
+
+router.route("/like")
+  .post(postController.updatePostLikes);
+
+// Matches with "/api/posts/:id"
+router.route("/:id")
   .get(postController.findById)
-  .put(postController.update)
   .delete(postController.remove);
+
+
 
 module.exports = router;

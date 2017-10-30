@@ -1,0 +1,57 @@
+
+
+h1.welcome {
+  margin-top: 32px;
+	font-family: 'Syncopate', sans-serif;
+  text-align: center;
+}
+
+.topnav {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.navbar-inverse {
+	background: #3584cd;
+
+}
+
+.header-img {
+  margin-left: 10px;
+	object-fit: cover;
+	border-radius:50%;
+	width: 150px;
+	height: 150px;
+  border: 1px solid rgba(221, 221, 221, 0.25);
+
+}
+
+@media (max-width: 500px) {
+	h1.welcome {
+		font-size: 1.2em !important;
+	}
+	.create-btn {
+		font-size: 15px !important;
+	}
+
+  .header-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+@media (max-width: 320px) {
+	h1.welcome {
+		font-size: 1em !important;
+		margin-top: 32px !important;
+	}
+	.create-btn {
+		font-size: 11px !important;
+	}
+
+  .header-img {
+    width: 100px;
+    height: 100px;
+  }
+}

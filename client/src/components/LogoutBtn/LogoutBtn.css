@@ -1,0 +1,12 @@
+.logout-btn {
+	float: right;
+	background: inherit;
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+
+.navbar-inverse .logout-btn a {
+	/*color: #3584cd;*/
+	color: white;
+}

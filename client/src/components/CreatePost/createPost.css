@@ -1,0 +1,26 @@
+
+
+
+.create-btn {
+	font-family: 'Syncopate', sans-serif;
+	background: inherit;
+	border: none;
+	font-size: 20px;
+	color: black;
+}
+
+.fa-pencil {
+	color: #65bdb4;
+}
+.fa-pencil:hover {
+	color: darkgray;
+}
+
+
+
+@media only screen and (max-width: 500px)
+{
+	.create-btn {
+		margin-left: 20px;
+	}
+}
