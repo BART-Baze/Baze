@@ -20,6 +20,9 @@
     "nodemon": "^1.18.4"
   },
   "dependencies": {
+    "abab": "^2.0.0",
+    "accepts": "^1.3.5",
+    "acorn": "^6.0.2",
     "axios": "^0.16.2",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
@@ -27,10 +30,12 @@
     "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
     "express-session": "^1.15.6",
+    "lodash": "^4.17.11",
     "method-override": "^3.0.0",
     "moment-timezone": "^0.5.13",
     "mongoose": "^4.11.7",
     "morgan": "~1.0.0",
+    "node-mime": "^1.0.0",
     "passport": "~0.1.17",
     "passport-facebook": "~1.0.2",
     "passport-google-oauth": "~0.1.5",
@@ -41,6 +46,7 @@
     "react-infinite-scroller": "^1.2.1",
     "react-moment": "^0.6.5",
     "react-router-dom": "^4.1.2",
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^1.1.5",
+    "url-parse": "^1.4.3"
   }
 }
